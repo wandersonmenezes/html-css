@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work sans', sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*Medidas Absolutas (recomenddadas oficialmente "px")
+       cm, mm, in, px, pt, pc
+       
+       Medidas Relativas (recomendadas oficialmente "em")
+       16px é = a 1em
+       em, ex, rem, vw, vh, %
+       */
+        /* tipos de pesos para fonte
+       lighter, normal, bold, bolder
+       100 a 900
+       
+       */
+        h1 {
+            Font: italic bolder 3em 'work sans', sans-serif
+                /*Shorthand Font
+            fonte-style > weight > size > family
+            ex:
+            font-family: 'work sans', sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;;
+            */
+
+        }
+        h2{
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quas ducimus laborum eius aliquid neque, eveniet
+        maxime? Illum esse illo nemo laborum itaque odio, labore ratione ex ut, accusamus natus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quas ducimus laborum eius aliquid neque, eveniet
+        maxime? Illum esse illo nemo laborum itaque odio, labore ratione ex ut, accusamus natus!</p>
+
+    <h2>Subtitulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore sint laboriosam optio magni, voluptatem
+        aliquid placeat, quae corporis repellendus nisi perferendis sunt consequuntur. Animi ratione accusantium dolorum
+        iste ipsum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore sint laboriosam optio magni, voluptatem
+        aliquid placeat, quae corporis repellendus nisi perferendis sunt consequuntur. Animi ratione accusantium dolorum
+        iste ipsum.</p>
+
+</body>
+
+</html>
