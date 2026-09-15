@@ -13,16 +13,16 @@
         table.tab1 {
             width: 500px;
             border-collapse: collapse;
+            border: 1;
         }
 
-        .titulo {
-            text-align: center;
-            vertical-align: middle;
-            padding: 5px 150px 5px 225px;
-            border: 1px solid black;
-            border-radius: 10px 10px 00px 0px;
+        caption {
             font-size: 20px;
+            font-weight: bold;
+            border: 1px solid black;
         }
+
+        
 
         td {
             border: 1px solid black;
@@ -46,7 +46,8 @@
             text-align: center;
 
         }
-        .numero{
+
+        .numero {
             text-align: right;
         }
     </style>
@@ -63,9 +64,8 @@ Hierarquia de Tabelas
     TABLE HEADER=CABEÇALHO DA TABELA
 -->
     <table class="tab1">
-        <tr>
-            <tb class="titulo">Tabela Criada</tb>
-        </tr>
+        <caption>População dos Estados Brasileiros</caption>
+        
         <tr class="linha"> <!--Primeira Linha-->
             <td>A1</td>
             <td>B1</td>
